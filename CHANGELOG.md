@@ -8,12 +8,6 @@ All notable changes to this project will be documented in this file. If a contri
 
 - Use react-is.isValidElementType to check whether elements passed to constructWithOptions are valid (see [#1658]https://github.com/styled-components/styled-components/pull/1658)
 
-- Fix onInvalid check in validAttrs, by [@slootsantos](https://github.com/slootsantos) (see [#1668](https://github.com/styled-components/styled-components/pull/1668))
-
-- Fix `makeSpeedyTag`'s css method (see [#1663](https://github.com/styled-components/styled-components/pull/1663))
-
--  Fix ComponentStyle caching strategy to take StyleSheet cache into account, by [@darthtrevino](https://github.com/darthtrevino) (see [#1634](https://github.com/styled-components/styled-components/pull/1634))
-
 ## [v3.2.5] - 2018-03-30
 
 - Deprecate experimental preprocess mode, by [@Samatar26](https://github.com/Samatar26) (see [#1619](https://github.com/styled-components/styled-components/issues/1619))

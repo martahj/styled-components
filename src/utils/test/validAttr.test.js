@@ -439,7 +439,6 @@ describe('validAttr', () => {
     expect(validAttr('onFocus')).toEqual(true)
     expect(validAttr('onFocusCapture')).toEqual(true)
     expect(validAttr('onBlur')).toEqual(true)
-    expect(validAttr('onInvalid')).toEqual(true)
     expect(validAttr('onBlurCapture')).toEqual(true)
     expect(validAttr('onChange')).toEqual(true)
     expect(validAttr('onChangeCapture')).toEqual(true)
